@@ -1,0 +1,355 @@
+/* Responsive Start  */
+
+@media only screen and (max-width: 1920px) and (min-width: 1500px) {
+  .right-img {
+    height: 700px;
+  }
+  .input-wrapper {
+    width: 21%;
+  }
+  .input-wrapper:last-child {
+    width: 58%;
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+  #navbarNav {
+    justify-content: end;
+  }
+  .header-section .navbar {
+    padding: 15px 38px;
+  }
+  .header-section .nav-link:first-child {
+    padding: 0 23px;
+  }
+  a.navbar-brand {
+    padding: 0 45px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .upcoming-evnt-slider .upcoming-event-wrap .wrap-l .content {
+    width: 383px;
+    margin-left: auto;
+  }
+}
+@media only screen and (min-width: 1200px) {
+
+  .upcoming-evnt-slider .upcoming-event-wrap .wrap-l .content {
+    width: 420px;
+    margin-left: auto;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+
+  .upcoming-evnt-slider .upcoming-event-wrap .wrap-l .content {
+    width: 609px;
+    margin-left: auto;
+    padding-left: 15px;
+  }
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    max-width: 1600px;
+  }
+
+}
+
+@media only screen and (max-width: 1400px) {
+  .our-reference {
+    background-position-x: 100%;
+  }
+  .our-work .main-slider {
+    margin-top: 100px;
+}
+.what-we-believe .gallery-wrap-top .wrap-top-all span,
+.blog-wrap-top .wrap-top-all span{
+  font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+  .banner {
+    padding: 160px 0;
+  }
+  .upcoming-evnt-slider .upcoming-event-wrap .wrap-l {
+    width: 50%;
+}
+.upcoming-evnt-slider .upcoming-event-wrap .wrap-r {
+  width: 50%;
+}
+.book-description .top-details{
+  width: 55%;
+}
+.book-description .container:before{
+  width: 45%;
+}
+.book-description .btm-wrap {
+  width: 55%;
+  padding-top: 40px;
+}
+/* .what-we-believe .gallery-wrap-top .wrap-top-all{
+  width: 300px;
+} */
+}
+
+@media only screen and (max-width: 1100px) {
+  .header-section .navbar {
+    padding: 15px 25px;
+  }
+  a.navbar-brand {
+    padding: 0 15px;
+  }
+  .navbar-brand img {
+    max-width: 150px;
+  }
+  .header-section .nav-link {
+    padding: 0 15px;
+    font-size: 14px;
+  }
+
+  .close {
+    top: 22px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* ====nav-start===== */
+  .desk-logo {
+    display: none;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+  .navbar-brand img {
+    max-width: 177px;
+  }
+  .header-section .nav-link {
+    padding: 2px 0;
+  }
+  .site-menu-toggle {
+    display: none;
+  }
+
+  #navbarNav {
+    margin-top: 20px;
+  }
+  .navbar-toggler {
+    right: -30px;
+    border: 0;
+  }
+  .navbar-toggler:focus {
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  /* ====nav-end===== */
+  section.about-us .container {
+    max-width: 100%;
+    --bs-gutter-x: 1.5rem;
+  }
+
+  .event {
+    padding: 60px 0;
+  }
+  .what-we-believe,
+  .our-product,
+  .our-blog-btm,
+  .our-stories {
+    padding: 60px 0;
+  }
+  .help-us{
+    padding-bottom: 60px;
+  }
+  .our-work{
+    margin-top: 0;
+  }
+  .upcoming-evnt-slider{
+    padding: 0 0 60px 0;
+  }
+  .about-us .about-left img {
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+  .about-us .about-right {
+    padding-left: 0;
+  }
+  .our-reference {
+    background-position-x: inherit;
+  }
+  .what-we-believe .gallery-wrap .one {
+    width: 100%;
+  }
+  .what-we-believe .gallery-wrap .two,
+  .what-we-believe .gallery-wrap .three {
+    width: 49.5%;
+  }
+  .help-us {
+    margin-top: -90px;
+  }
+  .our-work .background-left,
+  .our-work .slide-right{
+    width: 100%;
+  }
+  .upcoming-evnt-slider .upcoming-event-wrap .wrap-l,
+  .upcoming-evnt-slider .upcoming-event-wrap .wrap-r{
+    width: 100%;
+  }
+  .upcoming-evnt-slider .upcoming-event-wrap .wrap-l{
+    padding: 0 15px;
+  }
+  .upcoming-evnt-slider .upcoming-event-wrap{
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+  .what-we-believe .gallery-wrap-top .wrap-top-all span, .blog-wrap-top .wrap-top-all span{
+    font-size: 16px;
+  }
+  .our-work .main-slider{
+    padding: 0 40px;
+    margin: 100px auto 0;
+  }
+  .footer-wrap{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 50px 50px;
+  }
+  .navbar-expand-lg .navbar-nav {
+    display: none;
+}
+.book-description .top-details{
+  width: 100%;
+  padding-top: 40px;
+}
+.book-description .container:before {
+  width: 100%;
+  position: static;
+  height: 284px;
+  margin-top: 40px;
+}
+.book-description .btm-wrap{
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .site-navbar nav .menu li a {
+    font-size: 26px;
+  }
+  .banner {
+    padding: 60px 0;
+  }
+  .event {
+    padding: 40px 0;
+  }
+
+
+  h2.sub-title {
+    font-size: 30px;
+  }
+  .help-us {
+    margin-top: -30px;
+  }
+  .blog-wrap-top .one, .blog-wrap-top .two, .blog-wrap-top .three,
+  .blog-wrap-top .four, .blog-wrap-top .five, .blog-wrap-top .six{
+    width: 100%;
+  }
+  .site-navbar nav .menu li select{
+    font-size: 26px;
+    background-size: 21px;
+    background-position-x: 2%;
+    padding: 0 0px 0 27px;
+  }
+  .site-navbar nav .menu li img {
+    width: 28px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .banner h1 {
+    font-size: 40px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+  a.animate-btn {
+    padding: 10px 30px;
+  }
+
+  h2.sub-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .about-us {
+    padding: 0 0 20px 0;
+    position: relative;
+  }
+  .what-we-believe .gallery-wrap .two,
+  .what-we-believe .gallery-wrap .three,
+  .what-we-believe .gallery-wrap .four,
+  .what-we-believe .gallery-wrap .five {
+    width: 100%;
+  }
+  .help-us {
+    margin-top: 50px;
+  }
+  .help-us .help-us-bg {
+    padding: 60px 10px;
+  }
+
+  .what-we-believe .gallery-wrap-top .wrap-top-all span{
+    font-size: 14px;
+  }
+  .what-we-believe,
+  .our-reference,
+  .our-reference
+  {
+    padding: 30px 0;
+  }
+  .help-us{
+    padding-bottom: 30px;
+  }
+  .our-work .top-content{
+    padding: 20px 15px 0 15px;
+  }
+  .our-reference .our-reference-content h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .our-stories .client-review{
+    padding: 0 40px;
+  }
+  span.title{
+    font-size: 16px;
+  }
+  .our-product .nav-pills{
+    margin-top: 20px;
+  }
+  .footer-wrap{
+    gap: 30px 50px;
+  }
+  footer{
+    padding-top: 60px;
+  }
+  .widgets{
+    width: 100%;
+  }
+  footer .footer-btm{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .our-stories .client-review-wrap .top-wrap img.client-img+p b{
+    font-size: 12px;
+  }
+  .book-description .btm-wrap{
+    flex-direction: column;
+  }
+  .book-description .btm-left, .book-description .btm-rigt{
+    width: 100%;
+  }
+}
